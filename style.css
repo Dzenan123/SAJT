@@ -1,0 +1,206 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.head {
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(106,105,129);
+background: linear-gradient(90deg, rgba(106,105,129,1) 0%, rgba(0,255,235,1) 48%, rgba(16,144,134,1) 79%);
+}
+.loginnaslov{
+    height : 60%;
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+}
+.forloginandline {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login {
+    width: 100%;
+    height: 90%;
+    
+    display: flex;
+}
+#line1 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 50%;
+    height: 3px;
+    background-color: gray;
+}
+.leftside {
+    width: 42%;
+    height: 100%;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,86,1) 0%, rgba(0,212,255,1) 100%);
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.decoration {
+    padding-top: 140px;
+}
+.parabest    {
+    font-size: 30px;
+}
+.wall {
+    height: 120px;
+    width: 300px;
+}
+.secondnaslov {
+    width: 58%;
+    height: 100%;
+    background-color: white;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.memberslogin{
+    font-size: 40px;    
+    color:gray;
+    text-align: center;
+    margin-top: 40px;      
+
+}
+.lorem {
+    font-size: 10px;
+}
+.userandpassword {
+margin-top: 60px;
+}
+.user {
+    display :flex;
+    border-bottom: 1px solid gray;
+    width: 70%;
+    margin-left: 70px;
+    
+}
+.pfp {
+    height: 60px;
+    width: 60px;
+    
+}
+.pass {
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+input {
+    all: unset;
+    font-size: 20px;
+    text-align: start;
+}
+.forloginbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    all: unset;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: blue;
+    padding: 7px 50px;
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    color: white; 
+}
+.line {
+    width: 80%;
+    height: 3px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    
+}
+.test {
+    background-color: transparent;
+    height: 80%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.question {
+    height: 30%;
+    width: 100%;    
+    background: rgb(176,178,214);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border: 2px solid black;
+
+}
+.answers {
+    height: 70%;
+    width: 100%;
+    background-color: gray;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.quest {
+    font-size : 50px;
+}
+.answer {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    background-color: lightgray;
+    opacity: 0.5;
+}
+.A:hover {
+    opacity: 1;
+    }.B:hover {
+        opacity: 1;
+        }.C:hover {
+            opacity: 1;
+            }.D:hover {
+                opacity: 1;
+                }
+                
+.theend{
+    Display:block;
+    font-size: 150px;
+}
+.points {
+    font-size: 50px;
+}
+.amountofpoints{
+ font-size: 50px;
+ display: inline;
+}
+.pointskralj {
+    font-size: 50px;
+    display: inline;
+}
+.playagain {
+    margin-left: 100px;
+}
+a {
+    all: unset;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: blue;
+    padding: 7px 50px;
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    color: white; 
+    margin-left: 100px;
+}
+#loading {
+    display: none;
+    justify-content: center;
+    margin-top: 400px;
+
+}
